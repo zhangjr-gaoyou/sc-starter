@@ -1,0 +1,9 @@
+com/asiainfo/sc/ctrl/demo/DemoController.class
+com/asiainfo/sc/svc/demo/DemoServiceImpl.class
+com/asiainfo/sc/entity/AddressType.class
+com/asiainfo/sc/entity/Account.class
+com/asiainfo/sc/base/BaseEntity.class
+com/asiainfo/sc/entity/Address.class
+com/asiainfo/sc/DemoApplication.class
+com/asiainfo/sc/entity/AccountRepository.class
+com/asiainfo/sc/svc/demo/DemoService.class

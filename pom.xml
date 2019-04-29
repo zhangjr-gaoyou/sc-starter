@@ -1,0 +1,111 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.asiainfo</groupId>
+  <artifactId>sc-starter</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>spring cloud starter</name>
+   	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.0.0.RELEASE</version>
+	</parent>
+  
+   <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+<!-- 		<spring-cloud.version>Dalston.SR5</spring-cloud.version> -->
+		<spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
+		
+	</properties>
+	
+  <modules>
+  	<module>EurekaServer</module>
+  	<module>DemoServiceProvider</module>
+  	<module>DemoServiceConsumer</module>
+  	<module>HystrixDashBoard</module>
+  	<module>ZuulGateway</module>
+  	<module>ConfigServer</module>
+  	<module>ZipkinServer</module>
+  	<module>UserService</module>
+  	<module>DemoFtlUI</module>
+  	<module>DemoFrontendFtlUI</module>
+  	<module>UaaServer</module>
+  	<module>UaaClientDemo</module>
+  </modules>
+  
+  
+  	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+	
+  
+  <profiles>
+		<profile>
+			<id>dept</id>
+			<repositories>
+				<repository>
+					<id>dept-nexus</id>
+					<url>http://10.19.9.23:9990/repository/maven-public/</url>
+					<releases>
+						<updatePolicy>always</updatePolicy>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</repository>
+			</repositories>
+			<pluginRepositories>
+				<pluginRepository>
+					<id>dept-nexus</id>
+					<url>http://10.19.9.23:9990/repository/maven-public/</url>
+					<releases>
+						<updatePolicy>always</updatePolicy>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</pluginRepository>
+			</pluginRepositories>
+			<distributionManagement>
+				<repository>
+					<id>dept-nexus</id>
+					<name>Releases</name>
+					<url>http://10.19.9.23:9990/repository/maven-releases/</url>
+				</repository>
+				<snapshotRepository>
+					<id>dept-nexus</id>
+					<name>Snapshots</name>
+					<url>http://10.19.9.23:9990/repository/maven-snapshots/</url>
+				</snapshotRepository>
+			</distributionManagement>
+
+
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+
+		</profile>
+
+	</profiles>
+	
+</project>

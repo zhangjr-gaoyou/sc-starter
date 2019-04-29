@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/DemoServiceConsumer" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/DemoServiceProvider" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/UserService" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/ZipkinServer" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/ZuulGateway" vcs="svn" />
+  </component>
+</project>

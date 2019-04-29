@@ -1,0 +1,31 @@
+server.port=8080
+
+spring.application.name=DEMO-CONSUMER
+
+eureka.client.service-url.defaultZone=http://user:user1234@localhost:8260/eureka
+eureka.instance.lease-expiration-duration-in-seconds=5
+eureka.instance.lease-renewal-interval-in-seconds=5
+
+## Freemarker \u914D\u7F6E
+## \u6587\u4EF6\u914D\u7F6E\u8DEF\u5F84
+
+spring.freemarker.template-loader-path=classpath:/webftl/
+
+spring.freemarker.cache=false
+spring.freemarker.charset=UTF-8
+
+spring.freemarker.check-template-location=true
+
+spring.freemarker.content-type=text/html
+
+spring.freemarker.expose-request-attributes=true
+
+spring.freemarker.expose-session-attributes=true
+spring.freemarker.request-context-attribute=request
+spring.freemarker.suffix=.ftl
+
+# ribbon config
+# DEMO-SERVICE.ribbon.NFLoadBalancerRuleClassName = com.netflix.loadbalancer.RoundRobinRule
+
+# feign hystrix
+feign.hystrix.enabled=true

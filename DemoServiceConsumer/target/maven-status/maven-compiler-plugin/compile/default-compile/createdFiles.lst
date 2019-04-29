@@ -1,0 +1,9 @@
+com/asiainfo/config/OurCustomRule.class
+com/asiainfo/sc/feign/demo/DemoFeignClientFallback.class
+com/asiainfo/sc/feign/demo/DemoFeignZuul.class
+com/asiainfo/sc/ctrl/demo/DemoClientCtrl.class
+com/asiainfo/sc/feign/demo/DemoFeign.class
+com/asiainfo/sc/feign/demo/DemoFeignZuulClientFallback.class
+com/asiainfo/config/ServiceRibbonConfig.class
+com/asiainfo/sc/DemoApplication.class
+com/asiainfo/config/RibbonConfiguration.class

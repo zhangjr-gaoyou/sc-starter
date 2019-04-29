@@ -1,0 +1,11 @@
+/data/devspaces/work/springfw/sc-starter/UserService/src/main/java/demo/login/UserController.java
+/data/devspaces/work/springfw/sc-starter/UserService/src/main/java/demo/api/v1/UserControllerV1.java
+/data/devspaces/work/springfw/sc-starter/UserService/src/main/java/demo/config/AuthorizationServerConfig.java
+/data/devspaces/work/springfw/sc-starter/UserService/src/main/java/demo/config/WebMvcConfig.java
+/data/devspaces/work/springfw/sc-starter/UserService/src/main/java/demo/data/BaseEntity.java
+/data/devspaces/work/springfw/sc-starter/UserService/src/main/java/demo/login/LoginController.java
+/data/devspaces/work/springfw/sc-starter/UserService/src/main/java/demo/config/ResourceServerConfig.java
+/data/devspaces/work/springfw/sc-starter/UserService/src/main/java/demo/UserApplication.java
+/data/devspaces/work/springfw/sc-starter/UserService/src/main/java/demo/user/User.java
+/data/devspaces/work/springfw/sc-starter/UserService/src/main/java/demo/user/UserRepository.java
+/data/devspaces/work/springfw/sc-starter/UserService/src/main/java/demo/api/v1/UserServiceV1.java

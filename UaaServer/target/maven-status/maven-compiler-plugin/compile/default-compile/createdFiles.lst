@@ -1,0 +1,13 @@
+com/asiainfo/sc/base/auth/AuthorizationServerConfig.class
+com/asiainfo/sc/base/auth/WebMvcConfig.class
+com/asiainfo/sc/base/UaaServer$CustomizedRestMvcConfig.class
+com/asiainfo/sc/base/api/UserRestController.class
+com/asiainfo/sc/base/entity/User.class
+com/asiainfo/sc/base/ctrl/LoginController.class
+com/asiainfo/sc/base/api/UserService.class
+com/asiainfo/sc/base/ctrl/UserController.class
+com/asiainfo/sc/base/entity/BaseEntity.class
+com/asiainfo/sc/base/res/ResourceServerConfig.class
+com/asiainfo/sc/base/auth/AuthorizationServerConfig$OAuth2Config.class
+com/asiainfo/sc/base/UaaServer.class
+com/asiainfo/sc/base/repo/UserRepository.class

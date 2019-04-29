@@ -1,0 +1,9 @@
+/data/devspaces/work/springfw/sc-starter/DemoServiceProvider/src/main/java/com/asiainfo/sc/svc/demo/DemoServiceImpl.java
+/data/devspaces/work/springfw/sc-starter/DemoServiceProvider/src/main/java/com/asiainfo/sc/entity/AddressType.java
+/data/devspaces/work/springfw/sc-starter/DemoServiceProvider/src/main/java/com/asiainfo/sc/svc/demo/DemoService.java
+/data/devspaces/work/springfw/sc-starter/DemoServiceProvider/src/main/java/com/asiainfo/sc/entity/Account.java
+/data/devspaces/work/springfw/sc-starter/DemoServiceProvider/src/main/java/com/asiainfo/sc/ctrl/demo/DemoController.java
+/data/devspaces/work/springfw/sc-starter/DemoServiceProvider/src/main/java/com/asiainfo/sc/base/BaseEntity.java
+/data/devspaces/work/springfw/sc-starter/DemoServiceProvider/src/main/java/com/asiainfo/sc/DemoApplication.java
+/data/devspaces/work/springfw/sc-starter/DemoServiceProvider/src/main/java/com/asiainfo/sc/entity/AccountRepository.java
+/data/devspaces/work/springfw/sc-starter/DemoServiceProvider/src/main/java/com/asiainfo/sc/entity/Address.java

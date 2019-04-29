@@ -1,0 +1,7 @@
+/data/devspaces/work/springfw/sc-starter/DemoServiceConsumer/src/main/java/com/asiainfo/sc/feign/demo/DemoFeign.java
+/data/devspaces/work/springfw/sc-starter/DemoServiceConsumer/src/main/java/com/asiainfo/sc/DemoApplication.java
+/data/devspaces/work/springfw/sc-starter/DemoServiceConsumer/src/main/java/com/asiainfo/sc/ctrl/demo/DemoClientCtrl.java
+/data/devspaces/work/springfw/sc-starter/DemoServiceConsumer/src/main/java/com/asiainfo/config/ServiceRibbonConfig.java
+/data/devspaces/work/springfw/sc-starter/DemoServiceConsumer/src/main/java/com/asiainfo/config/OurCustomRule.java
+/data/devspaces/work/springfw/sc-starter/DemoServiceConsumer/src/main/java/com/asiainfo/sc/feign/demo/DemoFeignZuul.java
+/data/devspaces/work/springfw/sc-starter/DemoServiceConsumer/src/main/java/com/asiainfo/config/RibbonConfiguration.java

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ConfigServer/ConfigServer.iml" filepath="$PROJECT_DIR$/ConfigServer/ConfigServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DemoServiceConsumer/DemoServiceConsumer.iml" filepath="$PROJECT_DIR$/DemoServiceConsumer/DemoServiceConsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DemoServiceProvider/DemoServiceProvider.iml" filepath="$PROJECT_DIR$/DemoServiceProvider/DemoServiceProvider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaServer/EurekaServer.iml" filepath="$PROJECT_DIR$/EurekaServer/EurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HystrixDashBoard/HystrixDashBoard.iml" filepath="$PROJECT_DIR$/HystrixDashBoard/HystrixDashBoard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserService/UserService.iml" filepath="$PROJECT_DIR$/UserService/UserService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZipkinServer/ZipkinServer.iml" filepath="$PROJECT_DIR$/ZipkinServer/ZipkinServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZuulGateway/ZuulGateway.iml" filepath="$PROJECT_DIR$/ZuulGateway/ZuulGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-starter.iml" filepath="$PROJECT_DIR$/sc-starter.iml" />
+    </modules>
+  </component>
+</project>

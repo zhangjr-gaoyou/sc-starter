@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: DEMO-CONSUMER
+  cloud:
+    config:
+# 直接用config server的
+#      uri: http://127.0.0.1:18080
+#      profile: dev
+#      label: master
+# 使用eureka的
+      profile: dev
+      label: master
+      discovery:
+        enabled: true                                  # 表示使用服务发现组件中的Config Server，而不自己指定Config Server的uri，默认false
+        service-id: CONFIGSERVER  # 指定Config Server在服务发现中的serviceId，默认是configserver
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:user1234@localhost:8260/eureka

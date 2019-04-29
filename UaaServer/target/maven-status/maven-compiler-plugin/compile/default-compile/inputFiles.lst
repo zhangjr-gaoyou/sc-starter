@@ -1,0 +1,11 @@
+/data/devspaces/work/springfw/sc-starter/UaaServer/src/main/java/com/asiainfo/sc/base/auth/WebMvcConfig.java
+/data/devspaces/work/springfw/sc-starter/UaaServer/src/main/java/com/asiainfo/sc/base/api/UserRestController.java
+/data/devspaces/work/springfw/sc-starter/UaaServer/src/main/java/com/asiainfo/sc/base/ctrl/UserController.java
+/data/devspaces/work/springfw/sc-starter/UaaServer/src/main/java/com/asiainfo/sc/base/auth/AuthorizationServerConfig.java
+/data/devspaces/work/springfw/sc-starter/UaaServer/src/main/java/com/asiainfo/sc/base/ctrl/LoginController.java
+/data/devspaces/work/springfw/sc-starter/UaaServer/src/main/java/com/asiainfo/sc/base/entity/User.java
+/data/devspaces/work/springfw/sc-starter/UaaServer/src/main/java/com/asiainfo/sc/base/repo/UserRepository.java
+/data/devspaces/work/springfw/sc-starter/UaaServer/src/main/java/com/asiainfo/sc/base/UaaServer.java
+/data/devspaces/work/springfw/sc-starter/UaaServer/src/main/java/com/asiainfo/sc/base/res/ResourceServerConfig.java
+/data/devspaces/work/springfw/sc-starter/UaaServer/src/main/java/com/asiainfo/sc/base/entity/BaseEntity.java
+/data/devspaces/work/springfw/sc-starter/UaaServer/src/main/java/com/asiainfo/sc/base/api/UserService.java

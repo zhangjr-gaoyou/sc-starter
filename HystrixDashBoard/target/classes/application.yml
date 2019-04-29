@@ -1,0 +1,11 @@
+server:
+  port: 8030
+spring:
+  application:
+    name: HystrixDashboard
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:user1234@localhost:8260/eureka
+  

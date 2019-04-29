@@ -1,0 +1,16 @@
+server:
+  port: 8040
+spring:
+  application:
+    name: ZuulGateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8260/eureka
+management:
+  security:
+    enabled: false
+zuul:
+  routes:
+    DEMO-SERVICE: /demo/**      

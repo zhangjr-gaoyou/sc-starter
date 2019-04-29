@@ -1,0 +1,3 @@
+/data/devspaces/work/springfw/sc-starter/ZuulGateway/src/main/java/com/asiainfo/sc/filter/DemoFilter.java
+/data/devspaces/work/springfw/sc-starter/ZuulGateway/src/main/java/com/asiainfo/sc/fallback/DemoFallbackProvider.java
+/data/devspaces/work/springfw/sc-starter/ZuulGateway/src/main/java/com/asiainfo/sc/base/ZuulGateway.java
